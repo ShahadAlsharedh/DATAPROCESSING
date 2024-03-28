@@ -12,3 +12,12 @@ CSV Data Processing: Process uploaded CSV files to insert records into SQLite ta
 Summary Generation: Retrieve a summary of the import process, including counts of records for each table and total import time, using the /summary endpoint.
 
 Proper Error Handling: The application incorporates error handling and validation to ensure robustness during file uploads and database operations.
+
+
+Dependencies
+The following dependencies are utilized in this project:
+
+Multer: Middleware for handling multipart/form-data file uploads.
+SQLite3: Asynchronous, non-blocking SQLite3 bindings for Node.js.
+csv-parser: CSV parsing and processing library for Node.js.
+fs: Node.js built-in module for file system operations.
